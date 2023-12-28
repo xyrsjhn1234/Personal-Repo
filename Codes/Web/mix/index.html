@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScriptPractice</title>
+</head>
+<body>
+    <button class="body__button" onclick="
+        alert('Hello world')">Hello World
+    </button>
+    <p>Paragraph of <span>Hello</span> World</p>
+    <button>Click</button>
+    
+    <div class="i4">
+        <p>Adults Plain Cotton T-shirt</p>
+        <p>Price: $7.99</p>
+
+        <button class="i4__cart" onclick="alertCart()">Add to cart</button>
+        <button class="i4__buy" onclick="alertBuy()">Buy now</button>
+    </div>
+    <div class="cartQuantity">
+        <h3>Cart Quantity</h3>
+        <button class="quantity" onclick="showQuantity()">Show Quantity</button>
+
+        <button class="cart" onclick="addToCart()">Add to Cart</button>
+
+        <button class="plus-2" onclick="addToCart_2()">+2</button>
+
+        <button class="plus-3" onclick="addToCart_3()">+3</button>
+
+        <button class="reset" onclick="resetCart()">Reset Cart</button>
+    </div>
+    <div class="calculator">
+        <button class="calculatorOne" onclick="buttonOne()">1</button>
+        
+        <button class="calculatorTwo" onclick="buttonTwo()">2</button>
+        
+        <button class="calculatorThree" onclick="buttonThree()">3</button>
+        
+        <button class="calculatorPlus" onclick="buttonPlus()">+</button>
+        
+        <button class="calculatorEqual" onclick="buttonEqual()">=</button>
+    </div>
+    <div class="flip">
+        <button onclick="flipHeads()">Heads</button>
+        <button onclick="flipTails()">Tails</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
